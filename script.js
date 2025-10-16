@@ -50,8 +50,8 @@ function attachAllEditableHandlers() {
 
 function save() {
   const title = elements.promptTitle.textContent.trim()
-  const content = elements.promptContent.textContent.trim()
-  const hasContent = elements.promptContent.innerHTML.trim()
+  const content = elements.promptContent.innerHTML.trim()
+  const hasContent = elements.promptContent.textContent.trim()
   if (!title || !hasContent) {
     return alert("Título e conteúdo não podem estar vazios.")
   }
@@ -200,7 +200,7 @@ function init() {
     if (elements.btnCollapse) elements.btnCollapse.style.display = ""
   }
 
-  
+
   // Handlers para abrir/fechar a sidebar
   if (elements.btnCollapse) {
     elements.btnCollapse.addEventListener("click", () => {
