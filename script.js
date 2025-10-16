@@ -200,6 +200,7 @@ function init() {
     if (elements.btnCollapse) elements.btnCollapse.style.display = ""
   }
 
+  
   // Handlers para abrir/fechar a sidebar
   if (elements.btnCollapse) {
     elements.btnCollapse.addEventListener("click", () => {
