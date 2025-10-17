@@ -110,7 +110,7 @@ function createPromptItem(prompt) {
       <button class="btn-icon" title="Remover" data-action="remove">
         <img
           src="assets/remove.svg"
-          alt="Remover"
+          alt="Remover" 
           class="icon icon-trash"
         /> 
       </button>
