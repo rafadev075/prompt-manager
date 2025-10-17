@@ -112,7 +112,7 @@ function createPromptItem(prompt) {
           src="assets/remove.svg"
           alt="Remover"
           class="icon icon-trash"
-        />
+        /> 
       </button>
     </li>
         `
